@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* width:70%; */
+    margin:auto;
+
+    padding-top: 5%;
+}
+h1{
+    text-align: center;
+    padding-bottom: 2%;
+}
+form{
+    
+    /* width:30%; */
+    margin:auto;
+
+    background-color: rgb(120, 138, 153);
+}
+input{
+    width:50%;
+    margin: auto;
+}
+.input1,.input2,.input3{
+    padding:5%;
+}
+input::placeholder{
+    color:gray;
+}
